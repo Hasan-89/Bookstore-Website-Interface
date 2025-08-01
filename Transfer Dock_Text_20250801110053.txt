@@ -1,1 +1,84 @@
-AI_Exp-2.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Book Store</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      color: darkblue;
+      font-size: 250%;
+    }
+
+    p {
+      text-align: center;
+      color: #333;
+      font-size: 120%;
+    }
+
+    .book-list {
+      margin: 20px auto;
+      width: 80%;
+    }
+
+    .book {
+      background-color: #fce5cd;
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 10px;
+    }x
+
+    .book h2 {
+      color: #000000;
+      font-size: 150%;
+    }
+
+    .book p {
+      color: #555;
+    }
+
+    #footer {
+      text-align: center;
+      color: gray;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to the Online Book Store</h1>
+  <p>Your one-stop shop for books of all genres!</p>
+
+  <div class="book-list">
+
+    <div class="book">
+      <h2>The Great Gatsby</h2>
+      <p>Author: F. Scott Fitzgerald</p>
+      <p>Price: ₹299</p>
+    </div>
+
+    <div class="book">
+      <h2>Wings of Fire</h2>
+      <p>Author: A.P.J. Abdul Kalam</p>
+      <p>Price: ₹999</p>
+    </div>
+
+    <div class="book">
+      <h2>Harry Potter and the Philosopher's Stone</h2>
+      <p>Author: J.K. Rowling</p>
+      <p>Price: ₹299</p>
+    </div>
+
+  </div>
+
+  <div id="footer">
+    <p>&copy; 2025 Online Book Store. All rights reserved.</p>
+  </div>
+
+</body>
+</html>
